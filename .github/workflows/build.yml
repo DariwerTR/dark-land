@@ -1,10 +1,8 @@
 name: build
 
-# Build check only. No releases or publishing.
+# Manual build only: runs when you press "Run workflow" in the Actions tab.
+# No releases or publishing.
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -23,6 +21,7 @@ jobs:
           java-version: 21
 
       # The Gradle wrapper jar is not committed yet, so Gradle is installed here.
+      # Once `gradle wrapper` has been run and committed, this can become ./gradlew build.
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
