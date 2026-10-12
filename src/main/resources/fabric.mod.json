@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "cursed_lands",
+	"version": "${version}",
+	"name": "Cursed Lands",
+	"description": "Gothic cursed biome and world generation: dead forests, necropolis, canyons with the River of Blood and the Dark Castle.",
+	"authors": [
+		"darisonnettr"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cursedlands.CursedLands"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
