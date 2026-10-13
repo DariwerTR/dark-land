@@ -1,0 +1,60 @@
+{
+  "type": "cursed_lands:cursed_lands",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "cursed_lands:cursed_lands",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": -0.3,
+            "continentalness": 0.3,
+            "erosion": 0.2,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "cursed_lands:dead_forest",
+          "parameters": {
+            "temperature": -0.2,
+            "humidity": 0.5,
+            "continentalness": 0.4,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "cursed_lands:necropolis",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.0,
+            "continentalness": 0.6,
+            "erosion": 0.6,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "cursed_lands:blood_canyon",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": -0.6,
+            "continentalness": 0.5,
+            "erosion": -0.6,
+            "weirdness": 0.5,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    },
+    "settings": "minecraft:overworld"
+  }
+}

@@ -73,6 +73,8 @@
       "minecraft:spring_lava"
     ],
     [
+      "cursed_lands:dead_trees_dense",
+      "cursed_lands:blood_moss_patch",
       "minecraft:glow_lichen",
       "minecraft:patch_dead_bush",
       "minecraft:patch_dead_bush_2",

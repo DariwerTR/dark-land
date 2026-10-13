@@ -74,6 +74,8 @@
       "minecraft:spring_lava"
     ],
     [
+      "cursed_lands:blood_moss_patch",
+      "cursed_lands:darkness_crystal_patch",
       "minecraft:patch_dead_bush",
       "minecraft:patch_dead_bush_2"
     ],

@@ -73,6 +73,8 @@
       "minecraft:spring_lava"
     ],
     [
+      "cursed_lands:dead_trees_sparse",
+      "cursed_lands:darkness_crystal_patch",
       "minecraft:glow_lichen",
       "minecraft:patch_dead_bush"
     ],
