@@ -1,3 +1,13 @@
 {
-	"biome.cursed_lands.cursed_lands": "Проклятые Земли"
+  "itemGroup.cursed_lands": "Проклятые Земли",
+  "block.cursed_lands.blood_moss_block": "Блок кровавого мха",
+  "block.cursed_lands.black_wood_log": "Бревно чёрной древесины",
+  "block.cursed_lands.darkness_crystal_block": "Блок кристалла тьмы",
+  "item.cursed_lands.ash": "Пепел",
+  "item.cursed_lands.darkness_crystal": "Кристалл тьмы",
+  "item.cursed_lands.ruins_heart": "Сердце руин",
+  "biome.cursed_lands.cursed_lands": "Проклятые Земли",
+  "biome.cursed_lands.dead_forest": "Мёртвый лес",
+  "biome.cursed_lands.necropolis": "Некрополь",
+  "biome.cursed_lands.blood_canyon": "Кровавый каньон"
 }

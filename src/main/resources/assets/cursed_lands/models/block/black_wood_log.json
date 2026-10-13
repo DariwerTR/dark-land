@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cursed_lands:block/black_wood_log_top",
+    "side": "cursed_lands:block/black_wood_log"
+  }
+}

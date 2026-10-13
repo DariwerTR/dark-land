@@ -1,3 +1,13 @@
 {
-	"biome.cursed_lands.cursed_lands": "Cursed Lands"
+  "itemGroup.cursed_lands": "Cursed Lands",
+  "block.cursed_lands.blood_moss_block": "Blood Moss Block",
+  "block.cursed_lands.black_wood_log": "Black Wood Log",
+  "block.cursed_lands.darkness_crystal_block": "Darkness Crystal Block",
+  "item.cursed_lands.ash": "Ash",
+  "item.cursed_lands.darkness_crystal": "Darkness Crystal",
+  "item.cursed_lands.ruins_heart": "Heart of the Ruins",
+  "biome.cursed_lands.cursed_lands": "Cursed Lands",
+  "biome.cursed_lands.dead_forest": "Dead Forest",
+  "biome.cursed_lands.necropolis": "Necropolis",
+  "biome.cursed_lands.blood_canyon": "Blood Canyon"
 }

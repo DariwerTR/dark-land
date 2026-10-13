@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cursed_lands:block/darkness_crystal_block"
+  }
+}
