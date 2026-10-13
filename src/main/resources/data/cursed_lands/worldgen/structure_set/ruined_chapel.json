@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1337,
+    "separation": 6,
+    "spacing": 14
+  },
+  "structures": [
+    {
+      "structure": "cursed_lands:ruined_chapel",
+      "weight": 1
+    }
+  ]
+}

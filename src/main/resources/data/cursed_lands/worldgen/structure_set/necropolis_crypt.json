@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 4242,
+    "separation": 4,
+    "spacing": 10
+  },
+  "structures": [
+    {
+      "structure": "cursed_lands:necropolis_crypt",
+      "weight": 1
+    }
+  ]
+}

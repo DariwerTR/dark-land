@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 1,
+    "distance": 3,
+    "spread": 2,
+    "preferred_biomes": "#cursed_lands:has_structure/dark_castle",
+    "salt": 777
+  },
+  "structures": [
+    {
+      "structure": "cursed_lands:dark_castle",
+      "weight": 1
+    }
+  ]
+}

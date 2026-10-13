@@ -25,7 +25,8 @@ Gradle wrapper пока не добавлен. Чтобы создать его,
 - Этап 2: биомы `cursed_lands`, `dead_forest`, `necropolis`, `blood_canyon` (JSON датапака), блоки `blood_moss_block`, `black_wood_log`, `darkness_crystal_block`, предметы `ash`, `darkness_crystal`, `ruins_heart`, творческая вкладка (готов, ждёт проверки сборки).
 - Этап 3: мёртвые деревья, пятна кровавого мха, кристаллы тьмы, измерение `cursed_lands:cursed_lands` с картой четырёх биомов (готов, ждёт проверки в игре).
 - Этап 4: каньоны в горных районах измерения (низкая эрозия), заполненные до уровня моря красноватой водой биома `blood_canyon` (готов, ждёт проверки в игре).
-- Дальше: структуры (некрополь, руины, мосты), Тёмный замок, парящие острова.
+- Этап 5: структуры `ruined_chapel` (часовня-руина), `necropolis_crypt` (склеп), `dark_castle` (Тёмный замок), сундуки с добычей (готов, ждёт проверки в игре).
+- Дальше: мосты через каньоны, парящие острова, мобы и ресурсы из референса.
 
 Текстуры блоков и предметов временные.
 
@@ -42,6 +43,18 @@ Gradle wrapper пока не добавлен. Чтобы создать его,
 | `noise_settings/cursed_lands.json` | копия ванильных настроек, изменено только `noise_router.final_density` |
 
 Уровень моря 63, поэтому дно каньона на высоте 44 заливается водой на 19 блоков.
+
+## Структуры
+
+| Структура | Где появляется | Размещение |
+| --- | --- | --- |
+| `cursed_lands:ruined_chapel` | `cursed_lands`, `dead_forest` | каждые 14 чанков (случайно) |
+| `cursed_lands:necropolis_crypt` | `necropolis` | каждые 10 чанков (случайно) |
+| `cursed_lands:dark_castle` | `cursed_lands`, `dead_forest`, `necropolis` | одна штука кольцом вокруг центра измерения (около 100-250 блоков) |
+
+Найти замок в игре: `/execute in cursed_lands:cursed_lands run locate structure cursed_lands:dark_castle`.
+
+Постройки хранятся как шаблоны в `src/main/resources/data/cursed_lands/structure/*.nbt`. Размещение, биомы и порча камня настраиваются в `worldgen/structure`, `worldgen/structure_set`, `tags/worldgen/biome/has_structure` и `worldgen/processor_list`. Добыча: `loot_table/chests/ruins.json` и `castle.json`.
 
 ## Как попасть в измерение
 
