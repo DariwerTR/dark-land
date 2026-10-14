@@ -50,6 +50,16 @@ public final class ModItems {
 				output.accept(ModBlocks.BONE_LAMP);
 				output.accept(ModBlocks.BONE_BRICKS);
 				output.accept(ModBlocks.ASH_BLOCK);
+				output.accept(ModBlocks.CANDELABRA);
+				output.accept(ModBlocks.CHANDELIER);
+				output.accept(ModBlocks.RELIQUARY_LANTERN);
+				output.accept(ModBlocks.BONE_PILE);
+				output.accept(ModBlocks.GOTHIC_FINIAL);
+				output.accept(ModBlocks.ALTAR_TABLE);
+				output.accept(ModBlocks.GARGOYLE);
+				output.accept(ModBlocks.TOMBSTONE);
+				output.accept(ModBlocks.WALL_SKULL_LAMP);
+				output.accept(ModBlocks.GOTHIC_BENCH);
 				output.accept(ASH);
 				output.accept(DARKNESS_CRYSTAL);
 				output.accept(RUINS_HEART);

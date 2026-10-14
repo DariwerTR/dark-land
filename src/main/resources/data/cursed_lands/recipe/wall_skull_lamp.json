@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:skeleton_skull",
+    "minecraft:candle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:wall_skull_lamp"
+  }
+}

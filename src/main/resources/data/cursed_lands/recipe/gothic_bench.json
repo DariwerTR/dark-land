@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "cursed_lands:dark_plank_slab",
+    "P": "cursed_lands:gothic_pillar"
+  },
+  "pattern": [
+    "###",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:gothic_bench"
+  }
+}

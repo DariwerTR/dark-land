@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "cursed_lands:gothic_brick_slab",
+    "P": "cursed_lands:gothic_pillar"
+  },
+  "pattern": [
+    "SSS",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:altar_table"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:candle",
+    "minecraft:candle",
+    "minecraft:candle",
+    "minecraft:candle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:chandelier"
+  }
+}

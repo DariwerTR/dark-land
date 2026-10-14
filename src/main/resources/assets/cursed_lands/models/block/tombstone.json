@@ -1,0 +1,280 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "b": "cursed_lands:block/decor_bone",
+    "s": "cursed_lands:block/decor_stone",
+    "particle": "cursed_lands:block/decor_bone",
+    "f_tomb_front": "cursed_lands:block/decor_f_tomb_front",
+    "f_tomb_skull": "cursed_lands:block/decor_f_tomb_skull"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        1.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        1.5,
+        5
+      ],
+      "to": [
+        13,
+        2.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        2.5,
+        6.5
+      ],
+      "to": [
+        12,
+        11,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            15.0,
+            16.0
+          ],
+          "texture": "#f_tomb_front"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        4.5,
+        11,
+        6.5
+      ],
+      "to": [
+        11.5,
+        12.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        12.5,
+        6.5
+      ],
+      "to": [
+        10.5,
+        13.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        13.5,
+        6.5
+      ],
+      "to": [
+        9.5,
+        14.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        7.4,
+        14.5,
+        7.5
+      ],
+      "to": [
+        8.6,
+        16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "texture": "#s"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        2.5,
+        1.5,
+        4
+      ],
+      "to": [
+        5,
+        3.5,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5.0,
+            4.0
+          ],
+          "texture": "#f_tomb_skull"
+        },
+        "east": {
+          "texture": "#b"
+        },
+        "south": {
+          "texture": "#b"
+        },
+        "west": {
+          "texture": "#b"
+        },
+        "up": {
+          "texture": "#b"
+        },
+        "down": {
+          "texture": "#b"
+        }
+      }
+    }
+  ]
+}

@@ -11,6 +11,15 @@
     "cursed_lands:gothic_brick_wall",
     "cursed_lands:rusted_bars",
     "cursed_lands:bone_bricks",
-    "cursed_lands:bone_lamp"
+    "cursed_lands:bone_lamp",
+    "cursed_lands:candelabra",
+    "cursed_lands:chandelier",
+    "cursed_lands:reliquary_lantern",
+    "cursed_lands:bone_pile",
+    "cursed_lands:gothic_finial",
+    "cursed_lands:altar_table",
+    "cursed_lands:gargoyle",
+    "cursed_lands:tombstone",
+    "cursed_lands:wall_skull_lamp"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cursed_lands:chiseled_gothic_bricks",
+    "cursed_lands:gothic_bricks",
+    "minecraft:bone_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:gargoyle"
+  }
+}

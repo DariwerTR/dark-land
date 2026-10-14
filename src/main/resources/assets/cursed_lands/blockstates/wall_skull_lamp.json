@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cursed_lands:block/wall_skull_lamp"
+    },
+    "facing=east": {
+      "model": "cursed_lands:block/wall_skull_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cursed_lands:block/wall_skull_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cursed_lands:block/wall_skull_lamp",
+      "y": 270
+    }
+  }
+}

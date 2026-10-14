@@ -9,6 +9,10 @@
     "cursed_lands:gothic_brick_slab",
     "cursed_lands:gothic_brick_wall",
     "cursed_lands:rusted_bars",
-    "cursed_lands:bone_bricks"
+    "cursed_lands:bone_bricks",
+    "cursed_lands:gothic_finial",
+    "cursed_lands:altar_table",
+    "cursed_lands:gargoyle",
+    "cursed_lands:tombstone"
   ]
 }

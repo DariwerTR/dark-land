@@ -27,5 +27,15 @@
   "block.cursed_lands.blood_carpet": "Кровавый ковёр",
   "block.cursed_lands.bone_lamp": "Костяная лампа",
   "block.cursed_lands.bone_bricks": "Костяные кирпичи",
-  "block.cursed_lands.ash_block": "Блок пепла"
+  "block.cursed_lands.ash_block": "Блок пепла",
+  "block.cursed_lands.candelabra": "Канделябр",
+  "block.cursed_lands.chandelier": "Готическая люстра",
+  "block.cursed_lands.reliquary_lantern": "Фонарь-реликварий",
+  "block.cursed_lands.bone_pile": "Груда костей",
+  "block.cursed_lands.gothic_finial": "Готический шпиль",
+  "block.cursed_lands.altar_table": "Алтарный стол",
+  "block.cursed_lands.gargoyle": "Горгулья",
+  "block.cursed_lands.tombstone": "Надгробие",
+  "block.cursed_lands.wall_skull_lamp": "Настенный череп-светильник",
+  "block.cursed_lands.gothic_bench": "Готическая скамья"
 }

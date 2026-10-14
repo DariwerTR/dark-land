@@ -18,10 +18,14 @@ import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraft.world.level.block.StainedGlassPaneBlock;
 import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.VoxelShape;
 
 import com.cursedlands.CursedLands;
 import com.cursedlands.block.DecorBarsBlock;
+import com.cursedlands.block.DecorShapeBlock;
 import com.cursedlands.block.DecorStairBlock;
+import com.cursedlands.block.FacingDecorBlock;
 
 /** Decorative blocks of the Cursed Lands biomes and buildings. */
 public final class ModBlocks {
@@ -152,6 +156,92 @@ public final class ModBlocks {
 			"ash_block",
 			Block::new,
 			ashBlock()
+	);
+
+	// ---- stage 8: decor blocks with custom models and shapes
+	public static final Block CANDELABRA = register(
+			"candelabra",
+			settings -> new DecorShapeBlock(settings, Shapes.or(Block.box(1.5, 7.5, 6.5, 14.5, 16, 9.5), Block.box(5, 0, 5, 11, 3, 11), Block.box(7, 3, 7, 9, 12, 9))),
+			BlockBehaviour.Properties.of().sound(SoundType.IRON).strength(1.5F, 3.0F).noOcclusion().lightLevel(state -> 12)
+	);
+
+	public static final Block CHANDELIER = register(
+			"chandelier",
+			settings -> new DecorShapeBlock(settings, Block.box(2, 4, 2, 14, 16, 14)),
+			BlockBehaviour.Properties.of().sound(SoundType.IRON).strength(1.5F, 3.0F).noOcclusion().lightLevel(state -> 15)
+	);
+
+	public static final Block RELIQUARY_LANTERN = register(
+			"reliquary_lantern",
+			settings -> new DecorShapeBlock(settings, Block.box(3.5, 0, 3.5, 12.5, 16, 12.5)),
+			BlockBehaviour.Properties.of().sound(SoundType.IRON).strength(1.5F, 3.0F).noOcclusion().lightLevel(state -> 14)
+	);
+
+	public static final Block BONE_PILE = register(
+			"bone_pile",
+			settings -> new DecorShapeBlock(settings, Block.box(1, 0, 1, 15, 7, 15)),
+			BlockBehaviour.Properties.of().sound(SoundType.BONE_BLOCK).strength(1.5F, 3.0F).noOcclusion()
+	);
+
+	public static final Block GOTHIC_FINIAL = register(
+			"gothic_finial",
+			settings -> new DecorShapeBlock(settings, Block.box(4, 0, 4, 12, 16, 12)),
+			BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).strength(2.0F, 6.0F).noOcclusion().requiresCorrectToolForDrops()
+	);
+
+	public static final Block ALTAR_TABLE = register(
+			"altar_table",
+			settings -> new FacingDecorBlock(settings, new VoxelShape[]{
+				Shapes.or(Block.box(0, 10, 1, 16, 14, 15), Block.box(12.5, 0, 11.5, 15.5, 10, 14.5), Block.box(0.5, 0, 11.5, 3.5, 10, 14.5), Block.box(12.5, 0, 2.5, 15.5, 10, 5.5), Block.box(0.5, 0, 2.5, 3.5, 10, 5.5)),
+				Shapes.or(Block.box(1, 10, 0, 15, 14, 16), Block.box(1.5, 0, 12.5, 4.5, 10, 15.5), Block.box(1.5, 0, 0.5, 4.5, 10, 3.5), Block.box(10.5, 0, 12.5, 13.5, 10, 15.5), Block.box(10.5, 0, 0.5, 13.5, 10, 3.5)),
+				Shapes.or(Block.box(0, 10, 1, 16, 14, 15), Block.box(0.5, 0, 1.5, 3.5, 10, 4.5), Block.box(12.5, 0, 1.5, 15.5, 10, 4.5), Block.box(0.5, 0, 10.5, 3.5, 10, 13.5), Block.box(12.5, 0, 10.5, 15.5, 10, 13.5)),
+				Shapes.or(Block.box(1, 10, 0, 15, 14, 16), Block.box(11.5, 0, 0.5, 14.5, 10, 3.5), Block.box(11.5, 0, 12.5, 14.5, 10, 15.5), Block.box(2.5, 0, 0.5, 5.5, 10, 3.5), Block.box(2.5, 0, 12.5, 5.5, 10, 15.5))
+			}),
+			BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).strength(2.0F, 6.0F).noOcclusion().requiresCorrectToolForDrops()
+	);
+
+	public static final Block GARGOYLE = register(
+			"gargoyle",
+			settings -> new FacingDecorBlock(settings, new VoxelShape[]{
+				Block.box(2, 0, 0, 14, 15, 14),
+				Block.box(2, 0, 2, 16, 15, 14),
+				Block.box(2, 0, 2, 14, 15, 16),
+				Block.box(0, 0, 2, 14, 15, 14)
+			}),
+			BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).strength(2.0F, 6.0F).noOcclusion().requiresCorrectToolForDrops()
+	);
+
+	public static final Block TOMBSTONE = register(
+			"tombstone",
+			settings -> new FacingDecorBlock(settings, new VoxelShape[]{
+				Block.box(3, 0, 5, 13, 16, 11),
+				Block.box(5, 0, 3, 11, 16, 13),
+				Block.box(3, 0, 5, 13, 16, 11),
+				Block.box(5, 0, 3, 11, 16, 13)
+			}),
+			BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).strength(2.0F, 6.0F).noOcclusion().requiresCorrectToolForDrops()
+	);
+
+	public static final Block WALL_SKULL_LAMP = register(
+			"wall_skull_lamp",
+			settings -> new FacingDecorBlock(settings, new VoxelShape[]{
+				Block.box(2.5, 1.5, 0, 13.5, 15.5, 10),
+				Block.box(6, 1.5, 2.5, 16, 15.5, 13.5),
+				Block.box(2.5, 1.5, 6, 13.5, 15.5, 16),
+				Block.box(0, 1.5, 2.5, 10, 15.5, 13.5)
+			}),
+			BlockBehaviour.Properties.of().sound(SoundType.BONE_BLOCK).strength(1.5F, 3.0F).noOcclusion().lightLevel(state -> 10)
+	);
+
+	public static final Block GOTHIC_BENCH = register(
+			"gothic_bench",
+			settings -> new FacingDecorBlock(settings, new VoxelShape[]{
+				Block.box(0, 0, 2, 16, 15, 13),
+				Block.box(3, 0, 0, 14, 15, 16),
+				Block.box(0, 0, 3, 16, 15, 14),
+				Block.box(2, 0, 0, 13, 15, 16)
+			}),
+			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2.0F, 3.0F).noOcclusion()
 	);
 
 	private ModBlocks() {

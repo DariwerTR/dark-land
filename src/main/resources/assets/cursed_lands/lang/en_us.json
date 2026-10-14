@@ -27,5 +27,15 @@
   "block.cursed_lands.blood_carpet": "Blood Carpet",
   "block.cursed_lands.bone_lamp": "Bone Lamp",
   "block.cursed_lands.bone_bricks": "Bone Bricks",
-  "block.cursed_lands.ash_block": "Ash Block"
+  "block.cursed_lands.ash_block": "Ash Block",
+  "block.cursed_lands.candelabra": "Candelabra",
+  "block.cursed_lands.chandelier": "Gothic Chandelier",
+  "block.cursed_lands.reliquary_lantern": "Reliquary Lantern",
+  "block.cursed_lands.bone_pile": "Pile of Bones",
+  "block.cursed_lands.gothic_finial": "Gothic Finial",
+  "block.cursed_lands.altar_table": "Altar Table",
+  "block.cursed_lands.gargoyle": "Gargoyle",
+  "block.cursed_lands.tombstone": "Tombstone",
+  "block.cursed_lands.wall_skull_lamp": "Wall Skull Lamp",
+  "block.cursed_lands.gothic_bench": "Gothic Bench"
 }

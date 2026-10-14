@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cursed_lands:block/gargoyle"
+    },
+    "facing=east": {
+      "model": "cursed_lands:block/gargoyle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cursed_lands:block/gargoyle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cursed_lands:block/gargoyle",
+      "y": 270
+    }
+  }
+}
