@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 9001,
+    "separation": 3,
+    "spacing": 8
+  },
+  "structures": [
+    {
+      "structure": "cursed_lands:canyon_bridge",
+      "weight": 1
+    }
+  ]
+}
