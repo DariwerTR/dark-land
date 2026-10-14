@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ash": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cursed_lands:ash"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cursed_lands:ash_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ash"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cursed_lands:ash_block"
+    ]
+  }
+}

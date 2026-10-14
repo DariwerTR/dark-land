@@ -6,14 +6,27 @@
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:stone_bricks",
+            "block": "cursed_lands:gothic_bricks",
             "probability": 0.12
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_stone_bricks"
+            "Name": "cursed_lands:cracked_gothic_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "cursed_lands:gothic_bricks",
+            "probability": 0.08
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "cursed_lands:mossy_gothic_bricks"
           }
         },
         {

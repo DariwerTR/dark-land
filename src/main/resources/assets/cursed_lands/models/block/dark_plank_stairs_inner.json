@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "cursed_lands:block/dark_planks",
+    "side": "cursed_lands:block/dark_planks",
+    "top": "cursed_lands:block/dark_planks"
+  }
+}

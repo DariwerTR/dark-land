@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bone_block",
+    "minecraft:torch"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:bone_lamp"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cursed_lands:ash_block"
+  ],
+  "result": {
+    "count": 4,
+    "id": "cursed_lands:ash"
+  }
+}

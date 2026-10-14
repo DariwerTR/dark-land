@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:red_stained_glass",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:blood_glass"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cursed_lands:block/dark_plank_slab"
+    },
+    "type=double": {
+      "model": "cursed_lands:block/dark_planks"
+    },
+    "type=top": {
+      "model": "cursed_lands:block/dark_plank_slab_top"
+    }
+  }
+}

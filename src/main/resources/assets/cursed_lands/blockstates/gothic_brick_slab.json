@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cursed_lands:block/gothic_brick_slab"
+    },
+    "type=double": {
+      "model": "cursed_lands:block/gothic_bricks"
+    },
+    "type=top": {
+      "model": "cursed_lands:block/gothic_brick_slab_top"
+    }
+  }
+}

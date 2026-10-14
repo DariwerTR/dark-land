@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:red_carpet",
+    "minecraft:red_carpet",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cursed_lands:blood_carpet"
+  }
+}

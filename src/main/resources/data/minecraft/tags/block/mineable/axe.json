@@ -1,5 +1,8 @@
 {
   "values": [
-    "cursed_lands:black_wood_log"
+    "cursed_lands:black_wood_log",
+    "cursed_lands:dark_planks",
+    "cursed_lands:dark_plank_stairs",
+    "cursed_lands:dark_plank_slab"
   ]
 }

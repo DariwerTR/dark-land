@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "cursed_lands:gothic_bricks",
+    "cursed_lands:blood_moss_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:mossy_gothic_bricks"
+  }
+}

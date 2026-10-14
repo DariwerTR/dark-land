@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_bars_side",
+  "textures": {
+    "bars": "cursed_lands:block/rusted_bars",
+    "edge": "cursed_lands:block/rusted_bars"
+  }
+}
