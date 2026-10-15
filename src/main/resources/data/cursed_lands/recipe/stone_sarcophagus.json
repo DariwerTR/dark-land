@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "cursed_lands:gothic_bricks",
+    "B": "minecraft:bone_block"
+  },
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:stone_sarcophagus"
+  }
+}

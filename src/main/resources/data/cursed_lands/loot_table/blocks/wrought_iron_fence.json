@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cursed_lands:wrought_iron_fence"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "cursed_lands:blocks/wrought_iron_fence"
+}

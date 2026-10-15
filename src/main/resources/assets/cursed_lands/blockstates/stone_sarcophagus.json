@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cursed_lands:block/stone_sarcophagus"
+    },
+    "facing=east": {
+      "model": "cursed_lands:block/stone_sarcophagus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cursed_lands:block/stone_sarcophagus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cursed_lands:block/stone_sarcophagus",
+      "y": 270
+    }
+  }
+}

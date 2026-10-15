@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "cursed_lands:gothic_bricks",
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:gothic_arch"
+  }
+}

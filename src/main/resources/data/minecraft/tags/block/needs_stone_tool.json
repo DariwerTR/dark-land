@@ -13,6 +13,24 @@
     "cursed_lands:gothic_finial",
     "cursed_lands:altar_table",
     "cursed_lands:gargoyle",
-    "cursed_lands:tombstone"
+    "cursed_lands:tombstone",
+    "cursed_lands:gothic_arch",
+    "cursed_lands:gothic_buttress",
+    "cursed_lands:gothic_buttress_cap",
+    "cursed_lands:gothic_cornice",
+    "cursed_lands:gothic_corbel",
+    "cursed_lands:battlement",
+    "cursed_lands:arrow_slit",
+    "cursed_lands:gothic_shaft",
+    "cursed_lands:column_base",
+    "cursed_lands:column_capital",
+    "cursed_lands:stone_sarcophagus",
+    "cursed_lands:gothic_roof_tiles",
+    "cursed_lands:gothic_roof_tile_stairs",
+    "cursed_lands:gothic_roof_tile_slab",
+    "cursed_lands:bone_brick_stairs",
+    "cursed_lands:bone_brick_slab",
+    "cursed_lands:bone_brick_wall",
+    "cursed_lands:ossuary_wall"
   ]
 }

@@ -1,0 +1,287 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "G": "cursed_lands:block/gothic_bricks",
+    "s": "cursed_lands:block/decor_stone",
+    "particle": "cursed_lands:block/gothic_bricks",
+    "f_sarc_side_w": "cursed_lands:block/decor_f_sarc_side_w",
+    "f_sarc_side_e": "cursed_lands:block/decor_f_sarc_side_e",
+    "f_sarc_lid": "cursed_lands:block/decor_f_sarc_lid"
+  },
+  "elements": [
+    {
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        2.0,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "texture": "#G"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "texture": "#G"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    },
+    {
+      "from": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "to": [
+        15.0,
+        8.0,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16.0,
+            6.0
+          ],
+          "texture": "#f_sarc_side_e"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16.0,
+            6.0
+          ],
+          "texture": "#f_sarc_side_w"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        8.0,
+        0.0
+      ],
+      "to": [
+        15.5,
+        10.0,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "texture": "#G"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "texture": "#G"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    },
+    {
+      "from": [
+        2.0,
+        10.0,
+        0.5
+      ],
+      "to": [
+        14.0,
+        11.5,
+        15.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#s"
+        },
+        "east": {
+          "texture": "#s"
+        },
+        "south": {
+          "texture": "#s"
+        },
+        "west": {
+          "texture": "#s"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            13.0,
+            16.0
+          ],
+          "texture": "#f_sarc_lid"
+        },
+        "down": {
+          "texture": "#s"
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        10.0,
+        0.0
+      ],
+      "to": [
+        2.5,
+        12.5,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "texture": "#G"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "texture": "#G"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        10.0,
+        14.0
+      ],
+      "to": [
+        2.5,
+        12.5,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "texture": "#G"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "texture": "#G"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    },
+    {
+      "from": [
+        13.5,
+        10.0,
+        0.0
+      ],
+      "to": [
+        15.5,
+        12.5,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "texture": "#G"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "texture": "#G"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    },
+    {
+      "from": [
+        13.5,
+        10.0,
+        14.0
+      ],
+      "to": [
+        15.5,
+        12.5,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#G"
+        },
+        "east": {
+          "texture": "#G"
+        },
+        "south": {
+          "texture": "#G"
+        },
+        "west": {
+          "texture": "#G"
+        },
+        "up": {
+          "texture": "#G"
+        },
+        "down": {
+          "texture": "#G"
+        }
+      }
+    }
+  ]
+}

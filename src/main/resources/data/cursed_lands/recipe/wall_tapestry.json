@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "cursed_lands:blood_carpet"
+  },
+  "pattern": [
+    "III",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cursed_lands:wall_tapestry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:coal"
+  },
+  "pattern": [
+    "I I",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:iron_brazier"
+  }
+}

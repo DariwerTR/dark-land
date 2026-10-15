@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "cursed_lands:dark_planks",
+    "B": "minecraft:book"
+  },
+  "pattern": [
+    "###",
+    "BBB",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:gothic_bookshelf"
+  }
+}

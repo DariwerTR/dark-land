@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "cursed_lands:bone_bricks",
+    "S": "minecraft:skeleton_skull"
+  },
+  "pattern": [
+    "##",
+    "#S"
+  ],
+  "result": {
+    "count": 3,
+    "id": "cursed_lands:ossuary_wall"
+  }
+}

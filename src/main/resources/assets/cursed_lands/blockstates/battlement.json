@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cursed_lands:block/battlement"
+    },
+    "facing=east": {
+      "model": "cursed_lands:block/battlement",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cursed_lands:block/battlement",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cursed_lands:block/battlement",
+      "y": 270
+    }
+  }
+}

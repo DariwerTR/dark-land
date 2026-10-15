@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "cursed_lands:dark_planks",
+    "R": "cursed_lands:blood_carpet",
+    "G": "cursed_lands:gothic_bricks"
+  },
+  "pattern": [
+    "#R#",
+    "#R#",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:gothic_throne"
+  }
+}

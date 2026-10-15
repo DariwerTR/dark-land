@@ -1,6 +1,8 @@
 {
   "values": [
     "cursed_lands:gothic_brick_slab",
-    "cursed_lands:dark_plank_slab"
+    "cursed_lands:dark_plank_slab",
+    "cursed_lands:gothic_roof_tile_slab",
+    "cursed_lands:bone_brick_slab"
   ]
 }

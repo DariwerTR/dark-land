@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "I": "minecraft:iron_bars"
+  },
+  "pattern": [
+    "#I#",
+    "#I#"
+  ],
+  "result": {
+    "count": 3,
+    "id": "cursed_lands:wrought_iron_fence"
+  }
+}

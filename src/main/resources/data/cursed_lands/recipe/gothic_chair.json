@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "cursed_lands:dark_planks",
+    "P": "minecraft:stick"
+  },
+  "pattern": [
+    "#  ",
+    "###",
+    "P P"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cursed_lands:gothic_chair"
+  }
+}

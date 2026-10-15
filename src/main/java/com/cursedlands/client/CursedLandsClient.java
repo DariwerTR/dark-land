@@ -11,7 +11,8 @@ import com.cursedlands.registry.ModBlocks;
 public class CursedLandsClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		BlockRenderLayerMap.putBlocks(ChunkSectionLayer.TRANSLUCENT, ModBlocks.BLOOD_GLASS, ModBlocks.BLOOD_GLASS_PANE);
+		BlockRenderLayerMap.putBlocks(ChunkSectionLayer.TRANSLUCENT, ModBlocks.BLOOD_GLASS, ModBlocks.BLOOD_GLASS_PANE, ModBlocks.TRACERY_WINDOW);
 		BlockRenderLayerMap.putBlock(ModBlocks.RUSTED_BARS, ChunkSectionLayer.CUTOUT);
+		BlockRenderLayerMap.putBlock(ModBlocks.IRON_BRAZIER, ChunkSectionLayer.CUTOUT);
 	}
 }

@@ -4,6 +4,11 @@
     "cursed_lands:dark_planks",
     "cursed_lands:dark_plank_stairs",
     "cursed_lands:dark_plank_slab",
-    "cursed_lands:gothic_bench"
+    "cursed_lands:gothic_bench",
+    "cursed_lands:gothic_bookshelf",
+    "cursed_lands:gothic_table",
+    "cursed_lands:gothic_chair",
+    "cursed_lands:gothic_throne",
+    "cursed_lands:dark_beam"
   ]
 }
