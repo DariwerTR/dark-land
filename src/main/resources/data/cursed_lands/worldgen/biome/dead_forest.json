@@ -75,6 +75,11 @@
     [
       "cursed_lands:dead_trees_dense",
       "cursed_lands:blood_moss_patch",
+      "cursed_lands:withered_grass_dense",
+      "cursed_lands:nightshade_patch",
+      "cursed_lands:shadow_mushroom_patch",
+      "cursed_lands:ghost_lily_patch",
+      "cursed_lands:gloom_vines",
       "minecraft:glow_lichen",
       "minecraft:patch_dead_bush",
       "minecraft:patch_dead_bush_2",

@@ -9,6 +9,9 @@
     "cursed_lands:gothic_table",
     "cursed_lands:gothic_chair",
     "cursed_lands:gothic_throne",
-    "cursed_lands:dark_beam"
+    "cursed_lands:dark_beam",
+    "cursed_lands:shadow_mushroom_block",
+    "cursed_lands:shadow_mushroom_stem",
+    "cursed_lands:bracket_fungus"
   ]
 }

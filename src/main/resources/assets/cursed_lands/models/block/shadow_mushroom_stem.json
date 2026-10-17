@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_single_face",
+  "textures": {
+    "texture": "cursed_lands:block/shadow_stem_block"
+  }
+}

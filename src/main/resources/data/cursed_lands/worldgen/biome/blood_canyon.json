@@ -76,6 +76,8 @@
     [
       "cursed_lands:blood_moss_patch",
       "cursed_lands:darkness_crystal_patch",
+      "cursed_lands:withered_grass_sparse",
+      "cursed_lands:blood_thorn_patch_dense",
       "minecraft:patch_dead_bush",
       "minecraft:patch_dead_bush_2"
     ],

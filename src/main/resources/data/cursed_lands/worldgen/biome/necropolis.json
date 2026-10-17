@@ -75,6 +75,10 @@
     [
       "cursed_lands:dead_trees_sparse",
       "cursed_lands:darkness_crystal_patch",
+      "cursed_lands:withered_grass_sparse",
+      "cursed_lands:nightshade_patch",
+      "cursed_lands:shadow_mushroom_patch_rare",
+      "cursed_lands:ghost_lily_patch",
       "minecraft:glow_lichen",
       "minecraft:patch_dead_bush"
     ],

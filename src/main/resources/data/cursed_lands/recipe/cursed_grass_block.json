@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "cursed_lands:cursed_soil",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursed_lands:cursed_grass_block"
+  }
+}

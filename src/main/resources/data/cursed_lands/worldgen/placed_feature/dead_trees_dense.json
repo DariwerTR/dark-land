@@ -1,9 +1,9 @@
 {
-  "feature": "cursed_lands:dead_tree",
+  "feature": "cursed_lands:dead_forest_vegetation",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 9
+      "count": 10
     },
     {
       "type": "minecraft:in_square"

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cursed_soil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cursed_lands:cursed_soil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cursed_lands:cursed_grass_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cursed_soil"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cursed_lands:cursed_grass_block"
+    ]
+  }
+}

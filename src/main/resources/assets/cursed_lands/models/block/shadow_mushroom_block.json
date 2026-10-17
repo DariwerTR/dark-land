@@ -1,0 +1,47 @@
+{
+  "textures": {
+    "particle": "cursed_lands:block/shadow_cap_block",
+    "texture": "cursed_lands:block/shadow_cap_block",
+    "glow": "cursed_lands:block/shadow_cap_glow"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#texture",
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        -0.01
+      ],
+      "to": [
+        16,
+        16,
+        -0.01
+      ],
+      "light_emission": 15,
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#glow",
+          "cullface": "north"
+        }
+      }
+    }
+  ]
+}

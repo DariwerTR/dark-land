@@ -1,0 +1,741 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "lily_core": "cursed_lands:block/lily_core",
+    "lily_leaf": "cursed_lands:block/lily_leaf",
+    "lily_petal": "cursed_lands:block/lily_petal",
+    "lily_stem": "cursed_lands:block/lily_stem",
+    "particle": "cursed_lands:block/lily_core"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        0.0,
+        7.5
+      ],
+      "to": [
+        8.5,
+        2.7,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_stem"
+        },
+        "east": {
+          "texture": "#lily_stem"
+        },
+        "south": {
+          "texture": "#lily_stem"
+        },
+        "west": {
+          "texture": "#lily_stem"
+        },
+        "up": {
+          "texture": "#lily_stem"
+        },
+        "down": {
+          "texture": "#lily_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          0.0,
+          8.0
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        8.583,
+        2.494,
+        7.55
+      ],
+      "to": [
+        9.483,
+        5.794,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_stem"
+        },
+        "east": {
+          "texture": "#lily_stem"
+        },
+        "south": {
+          "texture": "#lily_stem"
+        },
+        "west": {
+          "texture": "#lily_stem"
+        },
+        "up": {
+          "texture": "#lily_stem"
+        },
+        "down": {
+          "texture": "#lily_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        7.533,
+        5.594,
+        6.85
+      ],
+      "to": [
+        10.533,
+        9.794,
+        7.35
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          9.033,
+          5.594,
+          7.1
+        ],
+        "axis": "x",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        7.533,
+        5.594,
+        8.65
+      ],
+      "to": [
+        10.533,
+        9.794,
+        9.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          9.033,
+          5.594,
+          8.9
+        ],
+        "axis": "x",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        7.883,
+        5.594,
+        6.5
+      ],
+      "to": [
+        8.383,
+        9.794,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          8.133,
+          5.594,
+          8.0
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        9.683,
+        5.594,
+        6.5
+      ],
+      "to": [
+        10.183,
+        9.794,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          9.933,
+          5.594,
+          8.0
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        7.633,
+        5.594,
+        6.6
+      ],
+      "to": [
+        8.833,
+        8.194,
+        7.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        9.233,
+        5.594,
+        6.6
+      ],
+      "to": [
+        10.433,
+        8.194,
+        7.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        7.633,
+        5.594,
+        8.2
+      ],
+      "to": [
+        8.833,
+        8.194,
+        9.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        9.233,
+        5.594,
+        8.2
+      ],
+      "to": [
+        10.433,
+        8.194,
+        9.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_petal"
+        },
+        "east": {
+          "texture": "#lily_petal"
+        },
+        "south": {
+          "texture": "#lily_petal"
+        },
+        "west": {
+          "texture": "#lily_petal"
+        },
+        "up": {
+          "texture": "#lily_petal"
+        },
+        "down": {
+          "texture": "#lily_petal"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        8.483,
+        5.594,
+        7.45
+      ],
+      "to": [
+        9.583,
+        7.994,
+        8.55
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_core"
+        },
+        "east": {
+          "texture": "#lily_core"
+        },
+        "south": {
+          "texture": "#lily_core"
+        },
+        "west": {
+          "texture": "#lily_core"
+        },
+        "up": {
+          "texture": "#lily_core"
+        },
+        "down": {
+          "texture": "#lily_core"
+        }
+      },
+      "light_emission": 15,
+      "shade": false
+    },
+    {
+      "from": [
+        8.333,
+        7.994,
+        7.8
+      ],
+      "to": [
+        8.733,
+        8.994,
+        8.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_stem"
+        },
+        "east": {
+          "texture": "#lily_stem"
+        },
+        "south": {
+          "texture": "#lily_stem"
+        },
+        "west": {
+          "texture": "#lily_stem"
+        },
+        "up": {
+          "texture": "#lily_stem"
+        },
+        "down": {
+          "texture": "#lily_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        8.183,
+        8.894,
+        7.65
+      ],
+      "to": [
+        8.883,
+        9.494,
+        8.35
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_core"
+        },
+        "east": {
+          "texture": "#lily_core"
+        },
+        "south": {
+          "texture": "#lily_core"
+        },
+        "west": {
+          "texture": "#lily_core"
+        },
+        "up": {
+          "texture": "#lily_core"
+        },
+        "down": {
+          "texture": "#lily_core"
+        }
+      },
+      "light_emission": 15,
+      "shade": false
+    },
+    {
+      "from": [
+        9.333,
+        7.994,
+        7.8
+      ],
+      "to": [
+        9.733,
+        8.994,
+        8.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_stem"
+        },
+        "east": {
+          "texture": "#lily_stem"
+        },
+        "south": {
+          "texture": "#lily_stem"
+        },
+        "west": {
+          "texture": "#lily_stem"
+        },
+        "up": {
+          "texture": "#lily_stem"
+        },
+        "down": {
+          "texture": "#lily_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        9.183,
+        8.894,
+        7.65
+      ],
+      "to": [
+        9.883,
+        9.494,
+        8.35
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_core"
+        },
+        "east": {
+          "texture": "#lily_core"
+        },
+        "south": {
+          "texture": "#lily_core"
+        },
+        "west": {
+          "texture": "#lily_core"
+        },
+        "up": {
+          "texture": "#lily_core"
+        },
+        "down": {
+          "texture": "#lily_core"
+        }
+      },
+      "light_emission": 15,
+      "shade": false
+    },
+    {
+      "from": [
+        8.833,
+        7.994,
+        8.3
+      ],
+      "to": [
+        9.233,
+        8.994,
+        8.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_stem"
+        },
+        "east": {
+          "texture": "#lily_stem"
+        },
+        "south": {
+          "texture": "#lily_stem"
+        },
+        "west": {
+          "texture": "#lily_stem"
+        },
+        "up": {
+          "texture": "#lily_stem"
+        },
+        "down": {
+          "texture": "#lily_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        8.683,
+        8.894,
+        8.15
+      ],
+      "to": [
+        9.383,
+        9.494,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_core"
+        },
+        "east": {
+          "texture": "#lily_core"
+        },
+        "south": {
+          "texture": "#lily_core"
+        },
+        "west": {
+          "texture": "#lily_core"
+        },
+        "up": {
+          "texture": "#lily_core"
+        },
+        "down": {
+          "texture": "#lily_core"
+        }
+      },
+      "light_emission": 15,
+      "shade": false
+    },
+    {
+      "from": [
+        6.8,
+        0.0,
+        7.15
+      ],
+      "to": [
+        7.2,
+        5.0,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_leaf"
+        },
+        "east": {
+          "texture": "#lily_leaf"
+        },
+        "south": {
+          "texture": "#lily_leaf"
+        },
+        "west": {
+          "texture": "#lily_leaf"
+        },
+        "up": {
+          "texture": "#lily_leaf"
+        },
+        "down": {
+          "texture": "#lily_leaf"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.0,
+          0.0,
+          8.0
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        7.15,
+        0.0,
+        8.8
+      ],
+      "to": [
+        8.85,
+        4.4,
+        9.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_leaf"
+        },
+        "east": {
+          "texture": "#lily_leaf"
+        },
+        "south": {
+          "texture": "#lily_leaf"
+        },
+        "west": {
+          "texture": "#lily_leaf"
+        },
+        "up": {
+          "texture": "#lily_leaf"
+        },
+        "down": {
+          "texture": "#lily_leaf"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          0.0,
+          9.0
+        ],
+        "axis": "x",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        8.15,
+        0.0,
+        6.8
+      ],
+      "to": [
+        9.85,
+        3.8,
+        7.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lily_leaf"
+        },
+        "east": {
+          "texture": "#lily_leaf"
+        },
+        "south": {
+          "texture": "#lily_leaf"
+        },
+        "west": {
+          "texture": "#lily_leaf"
+        },
+        "up": {
+          "texture": "#lily_leaf"
+        },
+        "down": {
+          "texture": "#lily_leaf"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.0,
+          0.0,
+          7.0
+        ],
+        "axis": "x",
+        "angle": -45
+      }
+    }
+  ],
+  "ambientocclusion": false
+}

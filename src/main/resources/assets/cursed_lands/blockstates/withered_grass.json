@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "cursed_lands:block/withered_grass_0",
+        "y": 0
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_0",
+        "y": 90
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_0",
+        "y": 180
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_0",
+        "y": 270
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_1",
+        "y": 0
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_1",
+        "y": 90
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_1",
+        "y": 180
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_1",
+        "y": 270
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_2",
+        "y": 0
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_2",
+        "y": 90
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_2",
+        "y": 180
+      },
+      {
+        "model": "cursed_lands:block/withered_grass_2",
+        "y": 270
+      }
+    ]
+  }
+}

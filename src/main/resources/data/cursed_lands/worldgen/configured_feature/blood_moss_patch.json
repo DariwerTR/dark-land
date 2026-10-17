@@ -12,9 +12,9 @@
     },
     "replaceable": "#minecraft:moss_replaceable",
     "surface": "floor",
-    "vegetation_chance": 0.15,
+    "vegetation_chance": 0.55,
     "vegetation_feature": {
-      "feature": "minecraft:patch_dead_bush",
+      "feature": "cursed_lands:blood_moss_cover",
       "placement": []
     },
     "vertical_range": 5,

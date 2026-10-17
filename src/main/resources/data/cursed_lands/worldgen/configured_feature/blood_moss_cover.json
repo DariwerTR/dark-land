@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "cursed_lands:blood_moss_carpet"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "Name": "cursed_lands:blood_thorn"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "cursed_lands:withered_grass"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "cursed_lands:shadow_mushroom"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

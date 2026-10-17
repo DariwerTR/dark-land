@@ -27,6 +27,10 @@ import com.cursedlands.block.DecorBarsBlock;
 import com.cursedlands.block.DecorShapeBlock;
 import com.cursedlands.block.DecorStairBlock;
 import com.cursedlands.block.FacingDecorBlock;
+import com.cursedlands.block.ShadowMushroomBlock;
+import com.cursedlands.block.BracketFungusBlock;
+import com.cursedlands.block.HangingVineBlock;
+import com.cursedlands.block.DecorPlantBlock;
 
 /** Decorative blocks of the Cursed Lands biomes and buildings. */
 public final class ModBlocks {
@@ -483,6 +487,101 @@ public final class ModBlocks {
 			FenceBlock::new,
 			BlockBehaviour.Properties.of().sound(SoundType.IRON).strength(3.0F, 6.0F).requiresCorrectToolForDrops()
 	);
+
+	// ---- stage 10: vegetation (plants, giant mushrooms, withered leaves, cursed ground)
+	public static final Block CURSED_GRASS_BLOCK = register(
+			"cursed_grass_block",
+			Block::new,
+			BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(0.6F)
+	);
+
+	public static final Block CURSED_SOIL = register(
+			"cursed_soil",
+			Block::new,
+			BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(0.5F)
+	);
+
+	public static final Block WITHERED_LEAVES = register(
+			"withered_leaves",
+			Block::new,
+			BlockBehaviour.Properties.of()
+				.sound(SoundType.GRASS)
+				.strength(0.2F)
+				.noOcclusion()
+				.isValidSpawn((state, level, pos, type) -> false)
+				.isSuffocating((state, level, pos) -> false)
+				.isViewBlocking((state, level, pos) -> false)
+	);
+
+	public static final Block BLOOD_MOSS_CARPET = register(
+			"blood_moss_carpet",
+			CarpetBlock::new,
+			BlockBehaviour.Properties.of().sound(SoundType.MOSS).strength(0.1F)
+	);
+
+	public static final Block WITHERED_GRASS = register(
+			"withered_grass",
+			settings -> new DecorPlantBlock(settings, Block.box(2, 0, 2, 14, 11, 14), DecorPlantBlock.Support.SOIL),
+			plant(SoundType.GRASS)
+	);
+
+	public static final Block SHADOW_MUSHROOM = register(
+			"shadow_mushroom",
+			settings -> new DecorPlantBlock(settings, Block.box(3, 0, 3, 13, 9, 13), DecorPlantBlock.Support.STURDY),
+			plant(SoundType.FUNGUS).lightLevel(state -> 6)
+	);
+
+	public static final Block BLOOD_THORN = register(
+			"blood_thorn",
+			settings -> new DecorPlantBlock(settings, Block.box(2, 0, 2, 14, 12, 14), DecorPlantBlock.Support.SOIL),
+			plant(SoundType.SWEET_BERRY_BUSH).lightLevel(state -> 3)
+	);
+
+	public static final Block GHOST_LILY = register(
+			"ghost_lily",
+			settings -> new DecorPlantBlock(settings, Block.box(4, 0, 4, 12, 12, 12), DecorPlantBlock.Support.SOIL),
+			plant(SoundType.GRASS).lightLevel(state -> 7)
+	);
+
+	public static final Block NIGHTSHADE = register(
+			"nightshade",
+			settings -> new DecorPlantBlock(settings, Block.box(3, 0, 3, 13, 11, 13), DecorPlantBlock.Support.SOIL),
+			plant(SoundType.GRASS).lightLevel(state -> 2)
+	);
+
+	public static final Block BRACKET_FUNGUS = register(
+			"bracket_fungus",
+			settings -> new BracketFungusBlock(settings, new VoxelShape[]{
+				Block.box(2, 1, 0, 14, 12, 7.5),
+				Block.box(8.5, 1, 2, 16, 12, 14),
+				Block.box(2, 1, 8.5, 14, 12, 16),
+				Block.box(0, 1, 2, 7.5, 12, 14)
+			}),
+			BlockBehaviour.Properties.of().sound(SoundType.FUNGUS).strength(0.4F).noCollision().noOcclusion()
+	);
+
+	public static final Block GLOOM_VINE = register(
+			"gloom_vine",
+			settings -> new HangingVineBlock(settings, Block.box(5, 0, 5, 11, 16, 11)),
+			BlockBehaviour.Properties.of().sound(SoundType.VINE).noCollision().noOcclusion().instabreak()
+	);
+
+	public static final Block SHADOW_MUSHROOM_BLOCK = register(
+			"shadow_mushroom_block",
+			ShadowMushroomBlock::new,
+			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(0.2F).lightLevel(state -> 8)
+	);
+
+	public static final Block SHADOW_MUSHROOM_STEM = register(
+			"shadow_mushroom_stem",
+			ShadowMushroomBlock::new,
+			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(0.2F)
+	);
+
+	/** Plants: no collision, no occlusion, break instantly, drawn with a random horizontal offset. */
+	private static BlockBehaviour.Properties plant(SoundType sound) {
+		return BlockBehaviour.Properties.of().sound(sound).noCollision().noOcclusion().instabreak().offsetType(BlockBehaviour.OffsetType.XZ);
+	}
 
 	private ModBlocks() {
 	}

@@ -65,5 +65,18 @@
   "block.cursed_lands.bone_brick_wall": "Bone Brick Wall",
   "block.cursed_lands.ossuary_wall": "Ossuary Wall",
   "block.cursed_lands.dark_beam": "Dark Beam",
-  "block.cursed_lands.wrought_iron_fence": "Wrought Iron Fence"
+  "block.cursed_lands.wrought_iron_fence": "Wrought Iron Fence",
+  "block.cursed_lands.cursed_grass_block": "Cursed Grass Block",
+  "block.cursed_lands.cursed_soil": "Cursed Soil",
+  "block.cursed_lands.withered_grass": "Withered Grass",
+  "block.cursed_lands.shadow_mushroom": "Shadow Mushroom",
+  "block.cursed_lands.shadow_mushroom_block": "Shadow Mushroom Cap",
+  "block.cursed_lands.shadow_mushroom_stem": "Shadow Mushroom Stem",
+  "block.cursed_lands.bracket_fungus": "Bracket Fungus",
+  "block.cursed_lands.blood_thorn": "Blood Thorn",
+  "block.cursed_lands.ghost_lily": "Ghost Lily",
+  "block.cursed_lands.nightshade": "Nightshade",
+  "block.cursed_lands.gloom_vine": "Gloom Vine",
+  "block.cursed_lands.withered_leaves": "Withered Leaves",
+  "block.cursed_lands.blood_moss_carpet": "Blood Moss Carpet"
 }

@@ -1,5 +1,7 @@
 {
   "values": [
-    "cursed_lands:ash_block"
+    "cursed_lands:ash_block",
+    "cursed_lands:cursed_grass_block",
+    "cursed_lands:cursed_soil"
   ]
 }

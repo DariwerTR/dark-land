@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "cursed_lands:block/cursed_grass_block",
+        "y": 0
+      },
+      {
+        "model": "cursed_lands:block/cursed_grass_block",
+        "y": 90
+      },
+      {
+        "model": "cursed_lands:block/cursed_grass_block",
+        "y": 180
+      },
+      {
+        "model": "cursed_lands:block/cursed_grass_block",
+        "y": 270
+      }
+    ]
+  }
+}

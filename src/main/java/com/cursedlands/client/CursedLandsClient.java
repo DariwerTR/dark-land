@@ -14,5 +14,17 @@ public class CursedLandsClient implements ClientModInitializer {
 		BlockRenderLayerMap.putBlocks(ChunkSectionLayer.TRANSLUCENT, ModBlocks.BLOOD_GLASS, ModBlocks.BLOOD_GLASS_PANE, ModBlocks.TRACERY_WINDOW);
 		BlockRenderLayerMap.putBlock(ModBlocks.RUSTED_BARS, ChunkSectionLayer.CUTOUT);
 		BlockRenderLayerMap.putBlock(ModBlocks.IRON_BRAZIER, ChunkSectionLayer.CUTOUT);
+		// stage 10: vegetation with transparent texels (cutout)
+		BlockRenderLayerMap.putBlocks(ChunkSectionLayer.CUTOUT,
+				ModBlocks.WITHERED_GRASS,
+				ModBlocks.SHADOW_MUSHROOM,
+				ModBlocks.BLOOD_THORN,
+				ModBlocks.GHOST_LILY,
+				ModBlocks.NIGHTSHADE,
+				ModBlocks.BRACKET_FUNGUS,
+				ModBlocks.GLOOM_VINE,
+				ModBlocks.WITHERED_LEAVES,
+				ModBlocks.SHADOW_MUSHROOM_BLOCK
+		);
 	}
 }

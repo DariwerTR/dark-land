@@ -1,0 +1,1187 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "thorn_stem": "cursed_lands:block/thorn_stem",
+    "thorn_tip": "cursed_lands:block/thorn_tip",
+    "particle": "cursed_lands:block/thorn_stem"
+  },
+  "elements": [
+    {
+      "from": [
+        5.2,
+        0.0,
+        5.2
+      ],
+      "to": [
+        10.8,
+        1.2,
+        10.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        6.3,
+        1.2,
+        6.3
+      ],
+      "to": [
+        9.7,
+        2.2,
+        9.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        7.2,
+        1.6,
+        7.2
+      ],
+      "to": [
+        8.8,
+        4.8,
+        8.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          1.6,
+          8.0
+        ],
+        "axis": "x",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        7.35,
+        4.556,
+        8.575
+      ],
+      "to": [
+        8.65,
+        7.756,
+        9.875
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        7.45,
+        7.756,
+        8.675
+      ],
+      "to": [
+        8.55,
+        10.356,
+        9.775
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          7.756,
+          9.225
+        ],
+        "axis": "x",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        7.6,
+        10.159,
+        7.83
+      ],
+      "to": [
+        8.4,
+        11.959,
+        8.63
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        7.5,
+        4.256,
+        8.725
+      ],
+      "to": [
+        8.5,
+        7.508,
+        9.725
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          4.256,
+          9.225
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        5.301,
+        6.556,
+        8.825
+      ],
+      "to": [
+        6.101,
+        8.832,
+        9.625
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5.701,
+          6.556,
+          9.225
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        4.48,
+        8.659,
+        8.875
+      ],
+      "to": [
+        5.18,
+        10.859,
+        9.575
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          4.83,
+          8.659,
+          9.225
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        5.401,
+        6.556,
+        8.925
+      ],
+      "to": [
+        6.001,
+        9.156,
+        9.525
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        6.5,
+        5.056,
+        8.225
+      ],
+      "to": [
+        7.2,
+        5.756,
+        10.225
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 5
+    },
+    {
+      "from": [
+        7.5,
+        7.456,
+        8.725
+      ],
+      "to": [
+        8.5,
+        10.678,
+        9.725
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          7.456,
+          9.225
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        8.833,
+        10.432,
+        8.825
+      ],
+      "to": [
+        9.633,
+        12.687,
+        9.625
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        8.883,
+        12.687,
+        8.875
+      ],
+      "to": [
+        9.583,
+        14.887,
+        9.575
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          9.233,
+          12.687,
+          9.225
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        8.266,
+        8.594,
+        8.225
+      ],
+      "to": [
+        8.966,
+        9.294,
+        10.225
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 5
+    },
+    {
+      "from": [
+        7.5,
+        7.456,
+        8.725
+      ],
+      "to": [
+        8.5,
+        10.175,
+        9.725
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          7.456,
+          9.225
+        ],
+        "axis": "x",
+        "angle": -45
+      }
+    },
+    {
+      "from": [
+        7.6,
+        9.379,
+        6.902
+      ],
+      "to": [
+        8.4,
+        11.282,
+        7.702
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          9.379,
+          7.302
+        ],
+        "axis": "x",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        7.65,
+        11.137,
+        6.224
+      ],
+      "to": [
+        8.35,
+        13.337,
+        6.924
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          8.0,
+          11.137,
+          6.574
+        ],
+        "axis": "x",
+        "angle": -22.5
+      }
+    },
+    {
+      "from": [
+        7.7,
+        9.379,
+        7.002
+      ],
+      "to": [
+        8.3,
+        11.979,
+        7.602
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        7.0,
+        8.068,
+        7.913
+      ],
+      "to": [
+        9.0,
+        8.768,
+        8.613
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 5
+    },
+    {
+      "from": [
+        7.5,
+        9.859,
+        7.73
+      ],
+      "to": [
+        8.5,
+        12.98,
+        8.73
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          9.859,
+          8.23
+        ],
+        "axis": "x",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        7.6,
+        12.742,
+        9.024
+      ],
+      "to": [
+        8.4,
+        14.927,
+        9.824
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      }
+    },
+    {
+      "from": [
+        7.65,
+        14.927,
+        9.074
+      ],
+      "to": [
+        8.35,
+        17.127,
+        9.774
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          8.0,
+          14.927,
+          9.424
+        ],
+        "axis": "x",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        7.0,
+        10.95,
+        8.477
+      ],
+      "to": [
+        9.0,
+        11.65,
+        9.177
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 5
+    },
+    {
+      "from": [
+        7.5,
+        4.256,
+        8.725
+      ],
+      "to": [
+        8.5,
+        6.988,
+        9.725
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          4.256,
+          9.225
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        5.669,
+        6.188,
+        8.825
+      ],
+      "to": [
+        6.469,
+        8.099,
+        9.625
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_stem"
+        },
+        "east": {
+          "texture": "#thorn_stem"
+        },
+        "south": {
+          "texture": "#thorn_stem"
+        },
+        "west": {
+          "texture": "#thorn_stem"
+        },
+        "up": {
+          "texture": "#thorn_stem"
+        },
+        "down": {
+          "texture": "#thorn_stem"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.069,
+          6.188,
+          9.225
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        4.987,
+        7.954,
+        8.875
+      ],
+      "to": [
+        5.687,
+        10.154,
+        9.575
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7,
+      "rotation": {
+        "origin": [
+          5.337,
+          7.954,
+          9.225
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "from": [
+        5.769,
+        6.188,
+        8.925
+      ],
+      "to": [
+        6.369,
+        8.788,
+        9.525
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 7
+    },
+    {
+      "from": [
+        6.684,
+        4.872,
+        8.225
+      ],
+      "to": [
+        7.384,
+        5.572,
+        10.225
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 5
+    },
+    {
+      "from": [
+        4.0,
+        0.0,
+        7.8
+      ],
+      "to": [
+        5.2,
+        1.2,
+        9.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 9
+    },
+    {
+      "from": [
+        10.6,
+        0.0,
+        6.2
+      ],
+      "to": [
+        11.8,
+        1.2,
+        7.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 9
+    },
+    {
+      "from": [
+        6.8,
+        0.0,
+        11.0
+      ],
+      "to": [
+        8.0,
+        1.2,
+        12.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#thorn_tip"
+        },
+        "east": {
+          "texture": "#thorn_tip"
+        },
+        "south": {
+          "texture": "#thorn_tip"
+        },
+        "west": {
+          "texture": "#thorn_tip"
+        },
+        "up": {
+          "texture": "#thorn_tip"
+        },
+        "down": {
+          "texture": "#thorn_tip"
+        }
+      },
+      "light_emission": 9
+    }
+  ],
+  "ambientocclusion": false
+}
