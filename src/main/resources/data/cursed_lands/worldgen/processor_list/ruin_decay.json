@@ -7,7 +7,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "cursed_lands:gothic_bricks",
-            "probability": 0.25
+            "probability": 0.12
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -20,7 +20,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "cursed_lands:gothic_bricks",
-            "probability": 0.2
+            "probability": 0.1
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -33,7 +33,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:deepslate_bricks",
-            "probability": 0.3
+            "probability": 0.25
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -46,7 +46,8 @@
     },
     {
       "processor_type": "minecraft:block_rot",
-      "integrity": 0.93
+      "integrity": 0.97,
+      "rottable_blocks": "#cursed_lands:rottable_ruins"
     }
   ]
 }
