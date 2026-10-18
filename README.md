@@ -103,6 +103,15 @@ Gradle wrapper пока не добавлен. Чтобы создать его,
 
 Размеры шаблонов: часовня 29x40x36 (1 сундук), склеп 37x58x47 (3 сундука), мост 77x92x15 (2 сундука), замок 101x116x115 (14 сундуков: 3 в хранилище, 11 в залах, башнях и караульных комнатах). Структуры ставятся на поверхность с `terrain_adaptation: beard_thin` (мост без адаптации), замок занимает до 80 блоков от центра.
 
+Быстрая проверка одной командой (нужны права оператора, встаньте на ровной земле в измерении Проклятых Земель на уровне пола):
+
+```
+/function cursed_lands:spawn_all      часовня, склеп и замок (сырые шаблоны, без порчи камня)
+/function cursed_lands:spawn_bridge   мост на высоте 36..84, у края каньона
+```
+
+Естественная генерация по правилам структуры: `/place structure cursed_lands:dark_castle` (то же для `ruined_chapel`, `necropolis_crypt`, `canyon_bridge`), работает только в подходящем биоме. Отдельный шаблон с поворотом и порчей: `/place template cursed_lands:ruined_chapel ~ ~-3 ~ clockwise_90 none 0.9`.
+
 Найти замок в игре: `/execute in cursed_lands:cursed_lands run locate structure cursed_lands:dark_castle`.
 
 Постройки хранятся как шаблоны в `src/main/resources/data/cursed_lands/structure/*.nbt`. Размещение, биомы и порча камня настраиваются в `worldgen/structure`, `worldgen/structure_set`, `tags/worldgen/biome/has_structure` и `worldgen/processor_list`. Добыча: `loot_table/chests/ruins.json` (часовня, мост), `crypt.json` (склеп), `castle.json` (залы и башни замка), `castle_crypt.json` (хранилище замка). Порча камня: `ruin_decay` (часовня, склеп) и более мягкая `castle_weathering` (замок, мост). Порча блоков (`block_rot`) касается только камня и досок из тега `cursed_lands:rottable_ruins`, поэтому сундуки, окна и декор не исчезают.
