@@ -1,0 +1,18 @@
+{
+  "type": "cursed_lands:cursed_lands",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "cursed_lands:cursed_lands",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        { "block": "minecraft:bedrock", "height": 1 },
+        { "block": "minecraft:stone", "height": 126 },
+        { "block": "cursed_lands:cursed_soil", "height": 2 },
+        { "block": "cursed_lands:cursed_grass_block", "height": 1 }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
