@@ -78,5 +78,7 @@
   "block.cursed_lands.nightshade": "Ночной паслён",
   "block.cursed_lands.gloom_vine": "Мрачная лоза",
   "block.cursed_lands.withered_leaves": "Увядшая листва",
-  "block.cursed_lands.blood_moss_carpet": "Ковёр кровавого мха"
+  "block.cursed_lands.blood_moss_carpet": "Ковёр кровавого мха",
+  "generator.cursed_lands.cursed_lands": "Проклятые Земли",
+  "message.cursed_lands.fog_turnback": "Туман не пускает вас дальше..."
 }

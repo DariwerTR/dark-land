@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "size": 1536,
+  "origin_x": -768,
+  "origin_z": -768,
+  "sea_level": 63,
+  "border_margin": 40,
+  "biomes": [
+    "cursed_lands",
+    "dead_forest",
+    "necropolis",
+    "blood_canyon",
+    "fog_far",
+    "fog_edge",
+    "fog_wall"
+  ],
+  "generator": "testmap",
+  "spawn": [
+    0,
+    0
+  ]
+}

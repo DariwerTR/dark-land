@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import com.cursedlands.registry.ModBlocks;
 import com.cursedlands.registry.ModItems;
+import com.cursedlands.registry.ModWorld;
 
 /**
  * Mod entry point. Registration of blocks, items and world generation
@@ -23,6 +24,7 @@ public class CursedLands implements ModInitializer {
 		// Blocks must be registered before items: block items and the creative tab refer to them.
 		ModBlocks.initialize();
 		ModItems.initialize();
+		ModWorld.initialize();
 
 		LOGGER.info("Cursed Lands initialized");
 	}

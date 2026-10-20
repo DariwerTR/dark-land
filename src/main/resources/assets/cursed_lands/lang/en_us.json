@@ -78,5 +78,7 @@
   "block.cursed_lands.nightshade": "Nightshade",
   "block.cursed_lands.gloom_vine": "Gloom Vine",
   "block.cursed_lands.withered_leaves": "Withered Leaves",
-  "block.cursed_lands.blood_moss_carpet": "Blood Moss Carpet"
+  "block.cursed_lands.blood_moss_carpet": "Blood Moss Carpet",
+  "generator.cursed_lands.cursed_lands": "Cursed Lands",
+  "message.cursed_lands.fog_turnback": "The fog will not let you go any further..."
 }
