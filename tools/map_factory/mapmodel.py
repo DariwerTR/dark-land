@@ -9,8 +9,9 @@ import clm
 # Surface kinds of the "surface" layer; must match MapChunkGenerator.Surface.
 GRASS, SOIL, GRAVEL, SAND, ROCK, PATH, MUD, ASH, COARSE, DEEPROCK = range(10)
 # Biome indices of the "biomes" layer, in the order written to meta.json (paths in the cursed_lands namespace).
-BIOMES = ["cursed_lands", "dead_forest", "necropolis", "blood_canyon", "fog_far", "fog_edge", "fog_wall"]
-B_CURSED, B_DEAD, B_NECRO, B_CANYON, B_FOG_FAR, B_FOG_EDGE, B_FOG_WALL = range(7)
+BIOMES = ["cursed_lands", "dead_forest", "necropolis", "blood_canyon", "fog_far", "fog_edge", "fog_wall",
+          "spire_peaks", "ash_wastes", "bone_valley", "blood_fen"]
+B_CURSED, B_DEAD, B_NECRO, B_CANYON, B_FOG_FAR, B_FOG_EDGE, B_FOG_WALL, B_SPIRE, B_ASH, B_BONE, B_FEN = range(11)
 
 FOG_WALL_WIDTH = 120      # blocks from the edge: the dense wall (fog_wall biome)
 FOG_EDGE_WIDTH = 190      # blocks from the edge: thick fog (fog_edge biome)

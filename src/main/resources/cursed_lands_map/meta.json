@@ -1,8 +1,8 @@
 {
   "format": 1,
-  "size": 1536,
-  "origin_x": -768,
-  "origin_z": -768,
+  "size": 6144,
+  "origin_x": -3072,
+  "origin_z": -5620,
   "sea_level": 63,
   "border_margin": 40,
   "biomes": [
@@ -12,9 +12,13 @@
     "blood_canyon",
     "fog_far",
     "fog_edge",
-    "fog_wall"
+    "fog_wall",
+    "spire_peaks",
+    "ash_wastes",
+    "bone_valley",
+    "blood_fen"
   ],
-  "generator": "testmap",
+  "generator": "map_factory/build_big.py",
   "spawn": [
     0,
     0
