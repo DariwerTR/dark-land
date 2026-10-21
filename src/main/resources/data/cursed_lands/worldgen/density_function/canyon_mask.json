@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:cache_2d",
-  "argument": {
-    "type": "minecraft:mul",
-    "argument1": "cursed_lands:canyon_line",
-    "argument2": "cursed_lands:canyon_gate"
-  }
-}
