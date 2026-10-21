@@ -133,7 +133,7 @@ Gradle wrapper пока не добавлен. Чтобы создать его,
 Быстрая проверка одной командой (нужны права оператора, встаньте на ровной земле в измерении Проклятых Земель на уровне пола):
 
 ```
-/function cursed_lands:spawn_all      часовня, склеп и замок (сырые шаблоны, без порчи камня)
+/function cursed_lands:spawn_all      часовня, склеп и замок (кирпич с запечённой порчей, без разрушения block_rot)
 /function cursed_lands:spawn_bridge   мост на высоте 36..84, у края каньона
 ```
 
@@ -153,11 +153,13 @@ Gradle wrapper пока не добавлен. Чтобы создать его,
 
 Найти замок в игре: `/execute in cursed_lands:cursed_lands run locate structure cursed_lands:dark_castle`.
 
-Постройки хранятся как шаблоны в `src/main/resources/data/cursed_lands/structure/*.nbt`. Размещение, биомы и порча камня настраиваются в `worldgen/structure`, `worldgen/structure_set`, `tags/worldgen/biome/has_structure` и `worldgen/processor_list`. Добыча: `loot_table/chests/ruins.json` (часовня, мост), `crypt.json` (склеп), `castle.json` (залы и башни замка), `castle_crypt.json` (хранилище замка). Порча камня: `ruin_decay` (часовня, склеп) и более мягкая `castle_weathering` (замок, мост). Порча блоков (`block_rot`) касается только камня и досок из тега `cursed_lands:rottable_ruins`, поэтому сундуки, окна и декор не исчезают.
+Постройки хранятся как шаблоны в `src/main/resources/data/cursed_lands/structure/*.nbt`. Размещение, биомы и порча камня настраиваются в `worldgen/structure`, `worldgen/structure_set`, `tags/worldgen/biome/has_structure` и `worldgen/processor_list`. Добыча: `loot_table/chests/ruins.json` (часовня, мост), `crypt.json` (склеп), `castle.json` (залы и башни замка), `castle_crypt.json` (хранилище замка). Списки процессоров: `ruin_decay` (часовня, склеп) и `castle_weathering` (замок, мост). Порча блоков (`block_rot` в `ruin_decay`) касается только камня и досок из тега `cursed_lands:rottable_ruins`, поэтому сундуки, окна и декор не исчезают.
+
+**Процессоры не должны читать мир.** При генерации чанка структуре доступна только область вокруг этого чанка, а процессоры обходят весь шаблон целиком. Процессор `minecraft:rule` (как и `minecraft:protected_blocks`) читает блок мира под каждым блоком шаблона, поэтому замок 133x147 вызывал ошибку «Requested chunk unavailable during world generation» и сервер закрывался сразу после входа в мир. Команды `/place` этого ограничения не имеют, и в песочнице ошибку увидеть было нельзя. Поэтому замена кирпича (трещины и мох у `gothic_bricks`, трещины у `deepslate_bricks`) запечена прямо в шаблоны `.nbt` скриптом `tools/structures/bake_weathering.py` (нужен `numpy`; `python3 bake_weathering.py <корень проекта>`): он берёт правила из `processor_list`, применяет их со своим постоянным зерном и убирает их из списков. Повторный запуск ничего не меняет, потому что правил в списках уже нет; вернуть прежний вид или изменить доли можно только из прежней версии шаблона. Читает и пишет NBT `tools/structures/nbtlite.py`: он сохраняет типы тегов и воспроизводит несжатое содержимое файла побайтно. Для порчи, зависящей от мира, нужно считать её в шаблоне заранее, а не в процессоре.
 
 ## Мост через каньон
 
-Шаблон `cursed_lands:canyon_bridge` лежит в `structure/canyon_bridge.nbt`, настил на 48 блоков выше точки старта (старт задаёт `start_height.absolute` в `worldgen/structure/canyon_bridge.json`, сейчас 36, настил на высоте 84). Набор структур для случайной генерации удалён, в этапе 12 мост ставится вручную (`/function cursed_lands:spawn_bridge`, `/place structure cursed_lands:canyon_bridge`) и вернётся в заданном месте большой карты.
+Шаблон `cursed_lands:canyon_bridge` лежит в `structure/canyon_bridge.nbt`, настил на 48 блоков выше точки старта (старт задаёт `start_height.absolute` в `worldgen/structure/canyon_bridge.json`, сейчас 36, настил на высоте 84). Набор структур для случайной генерации снят (в старых копиях репозитория файл `worldgen/structure_set/canyon_bridge.json` мог остаться, его нужно удалить; пока он есть, мост не появляется сам только потому, что тег `tags/worldgen/biome/has_structure/canyon_bridge.json` пуст), в этапе 12 мост ставится вручную (`/function cursed_lands:spawn_bridge`, `/place structure cursed_lands:canyon_bridge`) и вернётся в заданном месте большой карты.
 
 ## Как попасть в измерение
 
