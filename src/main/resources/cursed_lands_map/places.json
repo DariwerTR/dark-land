@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "places": [
+    {
+      "id": "outpost",
+      "x": 0,
+      "z": 0,
+      "kind": "spawn"
+    },
+    {
+      "id": "throne_plateau",
+      "x": 0,
+      "z": -2773,
+      "kind": "region"
+    },
+    {
+      "id": "spire_ridge",
+      "x": -150,
+      "z": -4798,
+      "kind": "region"
+    },
+    {
+      "id": "rifts",
+      "x": 1575,
+      "z": -2398,
+      "kind": "region"
+    },
+    {
+      "id": "necropolis",
+      "x": -180,
+      "z": -823,
+      "kind": "region"
+    },
+    {
+      "id": "dead_forest",
+      "x": -1575,
+      "z": -2623,
+      "kind": "region"
+    },
+    {
+      "id": "ash_wastes",
+      "x": 1425,
+      "z": -3973,
+      "kind": "region"
+    },
+    {
+      "id": "abbey_hills",
+      "x": -1425,
+      "z": -3973,
+      "kind": "region"
+    },
+    {
+      "id": "bone_valley",
+      "x": 1500,
+      "z": -1048,
+      "kind": "region"
+    },
+    {
+      "id": "raven_reach",
+      "x": -525,
+      "z": -2023,
+      "kind": "region"
+    },
+    {
+      "id": "lakeside_fens",
+      "x": -975,
+      "z": -523,
+      "kind": "region"
+    },
+    {
+      "id": "highway_plain",
+      "x": 450,
+      "z": -1948,
+      "kind": "region"
+    },
+    {
+      "id": "foothills",
+      "x": 600,
+      "z": -4198,
+      "kind": "region"
+    },
+    {
+      "id": "gallows_hill",
+      "x": 525,
+      "z": -3448,
+      "kind": "landmark"
+    },
+    {
+      "id": "stone_circle",
+      "x": 750,
+      "z": -1798,
+      "kind": "landmark"
+    },
+    {
+      "id": "guardian_mines",
+      "x": -450,
+      "z": -3598,
+      "kind": "landmark"
+    },
+    {
+      "id": "spire_towers",
+      "x": -450,
+      "z": -4723,
+      "kind": "landmark"
+    },
+    {
+      "id": "raven_ford",
+      "x": -600,
+      "z": -1948,
+      "kind": "landmark"
+    },
+    {
+      "id": "blood_lake",
+      "x": -1050,
+      "z": -1048,
+      "kind": "landmark"
+    },
+    {
+      "id": "crimson_tarn",
+      "x": 450,
+      "z": -4723,
+      "kind": "landmark"
+    },
+    {
+      "id": "blood_river",
+      "x": -675,
+      "z": -2923,
+      "kind": "landmark"
+    }
+  ]
+}

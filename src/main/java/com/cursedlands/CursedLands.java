@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import com.cursedlands.registry.ModBlocks;
 import com.cursedlands.registry.ModItems;
+import com.cursedlands.registry.ModNetworking;
 import com.cursedlands.registry.ModWorld;
 
 /**
@@ -25,6 +26,7 @@ public class CursedLands implements ModInitializer {
 		ModBlocks.initialize();
 		ModItems.initialize();
 		ModWorld.initialize();
+		ModNetworking.initialize();
 
 		LOGGER.info("Cursed Lands initialized");
 	}

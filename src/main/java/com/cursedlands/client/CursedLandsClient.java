@@ -5,9 +5,10 @@ import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 
+import com.cursedlands.client.map.MapClient;
 import com.cursedlands.registry.ModBlocks;
 
-/** Client-only setup: render layers of blocks with transparent textures. */
+/** Client-only setup: render layers of blocks with transparent textures, the in-game map. */
 public class CursedLandsClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
@@ -26,5 +27,7 @@ public class CursedLandsClient implements ClientModInitializer {
 				ModBlocks.WITHERED_LEAVES,
 				ModBlocks.SHADOW_MUSHROOM_BLOCK
 		);
+		// stage 13: minimap and full-screen map
+		MapClient.initialize();
 	}
 }
