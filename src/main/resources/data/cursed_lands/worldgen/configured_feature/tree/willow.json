@@ -1,0 +1,6 @@
+{
+  "type": "cursed_lands:procedural_tree",
+  "config": {
+    "species": "willow"
+  }
+}

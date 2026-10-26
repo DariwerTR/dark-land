@@ -25,6 +25,9 @@ public class CursedLandsClient implements ClientModInitializer {
 				ModBlocks.BRACKET_FUNGUS,
 				ModBlocks.GLOOM_VINE,
 				ModBlocks.WITHERED_LEAVES,
+				ModBlocks.DARK_NEEDLES,
+				ModBlocks.CRIMSON_LEAVES,
+				ModBlocks.ASHEN_LEAVES,
 				ModBlocks.SHADOW_MUSHROOM_BLOCK
 		);
 		// stage 13: minimap and full-screen map

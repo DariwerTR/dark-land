@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "cursed_lands:tree/blood_maple",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.28,
+        "feature": {
+          "feature": "cursed_lands:tree/thornbrush",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.19444,
+        "feature": {
+          "feature": "cursed_lands:tree/snag",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.17241,
+        "feature": {
+          "feature": "cursed_lands:tree/charred",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.20833,
+        "feature": {
+          "feature": "cursed_lands:tree/wind_pine",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.21053,
+        "feature": {
+          "feature": "cursed_lands:tree/stump",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

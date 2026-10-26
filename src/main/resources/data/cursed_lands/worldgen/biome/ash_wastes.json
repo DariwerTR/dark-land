@@ -74,7 +74,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "cursed_lands:dead_trees_sparse",
+      "cursed_lands:trees_ash_wastes",
+      "cursed_lands:fallen_charred_logs",
       "cursed_lands:darkness_crystal_patch",
       "cursed_lands:withered_grass_sparse",
       "cursed_lands:blood_thorn_patch_rare",

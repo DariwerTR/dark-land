@@ -1,0 +1,82 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wl": "cursed_lands:block/dark_needles",
+    "particle": "cursed_lands:block/dark_needles"
+  },
+  "elements": [
+    {
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wl"
+        },
+        "east": {
+          "texture": "#wl"
+        },
+        "south": {
+          "texture": "#wl"
+        },
+        "west": {
+          "texture": "#wl"
+        },
+        "up": {
+          "texture": "#wl"
+        },
+        "down": {
+          "texture": "#wl"
+        }
+      }
+    },
+    {
+      "from": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "to": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wl"
+        },
+        "east": {
+          "texture": "#wl"
+        },
+        "south": {
+          "texture": "#wl"
+        },
+        "west": {
+          "texture": "#wl"
+        },
+        "up": {
+          "texture": "#wl"
+        },
+        "down": {
+          "texture": "#wl"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          8.0,
+          8.0
+        ],
+        "axis": "y",
+        "angle": 45
+      }
+    }
+  ]
+}

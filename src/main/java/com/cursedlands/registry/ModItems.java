@@ -31,6 +31,9 @@ public final class ModItems {
 			.displayItems((params, output) -> {
 				output.accept(ModBlocks.BLOOD_MOSS_BLOCK);
 				output.accept(ModBlocks.BLACK_WOOD_LOG);
+				output.accept(ModBlocks.PALE_BIRCH_LOG);
+				output.accept(ModBlocks.CHARRED_LOG);
+				output.accept(ModBlocks.PINE_LOG);
 				output.accept(ModBlocks.DARKNESS_CRYSTAL_BLOCK);
 				output.accept(ModBlocks.GOTHIC_BRICKS);
 				output.accept(ModBlocks.CRACKED_GOTHIC_BRICKS);
@@ -91,6 +94,9 @@ public final class ModItems {
 				output.accept(ModBlocks.CURSED_GRASS_BLOCK);
 				output.accept(ModBlocks.CURSED_SOIL);
 				output.accept(ModBlocks.WITHERED_LEAVES);
+				output.accept(ModBlocks.DARK_NEEDLES);
+				output.accept(ModBlocks.CRIMSON_LEAVES);
+				output.accept(ModBlocks.ASHEN_LEAVES);
 				output.accept(ModBlocks.BLOOD_MOSS_CARPET);
 				output.accept(ModBlocks.WITHERED_GRASS);
 				output.accept(ModBlocks.SHADOW_MUSHROOM);

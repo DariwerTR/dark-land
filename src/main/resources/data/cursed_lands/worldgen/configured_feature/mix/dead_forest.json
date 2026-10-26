@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "cursed_lands:tree/black_spruce",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.20952,
+        "feature": {
+          "feature": "cursed_lands:tree/black_oak",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.16867,
+        "feature": {
+          "feature": "cursed_lands:tree/dead_spruce",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2029,
+        "feature": {
+          "feature": "cursed_lands:tree/snag",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.14545,
+        "feature": {
+          "feature": "cursed_lands:tree/dead_birch",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.10638,
+        "feature": {
+          "feature": "cursed_lands:tree/stump",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.09524,
+        "feature": {
+          "feature": "cursed_lands:tree/bone_birch",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.10526,
+        "feature": {
+          "feature": "cursed_lands:tree/cypress",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.08824,
+        "feature": {
+          "feature": "cursed_lands:huge_shadow_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.09677,
+        "feature": {
+          "feature": "cursed_lands:tree/thornbrush",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.07143,
+        "feature": {
+          "feature": "cursed_lands:huge_shadow_parasol",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

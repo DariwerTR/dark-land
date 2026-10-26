@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pale_birch_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cursed_lands:pale_birch_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cursed_lands:dark_planks_from_pale_birch_log"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pale_birch_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cursed_lands:dark_planks_from_pale_birch_log"
+    ]
+  }
+}

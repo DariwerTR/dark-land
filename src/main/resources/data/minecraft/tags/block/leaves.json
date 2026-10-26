@@ -1,5 +1,8 @@
 {
   "values": [
-    "cursed_lands:withered_leaves"
+    "cursed_lands:withered_leaves",
+    "cursed_lands:dark_needles",
+    "cursed_lands:crimson_leaves",
+    "cursed_lands:ashen_leaves"
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "cursed_lands:tree/bone_birch",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.22,
+        "feature": {
+          "feature": "cursed_lands:tree/dead_birch",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.20513,
+        "feature": {
+          "feature": "cursed_lands:tree/snag",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.12903,
+        "feature": {
+          "feature": "cursed_lands:tree/black_oak",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.14815,
+        "feature": {
+          "feature": "cursed_lands:tree/stump",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.17391,
+        "feature": {
+          "feature": "cursed_lands:tree/thornbrush",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.21053,
+        "feature": {
+          "feature": "cursed_lands:tree/wind_pine",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

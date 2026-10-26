@@ -12,6 +12,9 @@
     "cursed_lands:dark_beam",
     "cursed_lands:shadow_mushroom_block",
     "cursed_lands:shadow_mushroom_stem",
-    "cursed_lands:bracket_fungus"
+    "cursed_lands:bracket_fungus",
+    "cursed_lands:pale_birch_log",
+    "cursed_lands:charred_log",
+    "cursed_lands:pine_log"
   ]
 }

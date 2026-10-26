@@ -2,6 +2,7 @@ package com.cursedlands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelReader;
@@ -39,7 +40,8 @@ public class HangingVineBlock extends Block {
 	protected boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) {
 		BlockPos above = pos.above();
 		BlockState support = level.getBlockState(above);
-		return support.is(this) || support.isFaceSturdy(level, above, Direction.DOWN);
+		// leaves have no sturdy faces, but the vines of the trees hang from them
+		return support.is(this) || support.is(BlockTags.LEAVES) || support.isFaceSturdy(level, above, Direction.DOWN);
 	}
 
 	@Override

@@ -73,7 +73,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "cursed_lands:dead_trees_sparse",
+      "cursed_lands:trees_bone_valley",
+      "cursed_lands:fallen_logs",
       "cursed_lands:withered_grass_sparse",
       "cursed_lands:nightshade_patch",
       "cursed_lands:ghost_lily_patch_rare",

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "cursed_lands:pine_log"
+  ],
+  "result": {
+    "count": 4,
+    "id": "cursed_lands:dark_planks"
+  }
+}

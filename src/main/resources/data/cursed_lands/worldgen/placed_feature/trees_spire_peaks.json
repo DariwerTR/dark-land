@@ -1,0 +1,37 @@
+{
+  "feature": "cursed_lands:mix/spire_peaks",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "noise_level": 0.0,
+      "below_noise": 1,
+      "above_noise": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "tag": "cursed_lands:tree_ground"
+      }
+    }
+  ]
+}

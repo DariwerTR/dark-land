@@ -3,6 +3,7 @@ package com.cursedlands.registry;
 import java.util.function.Function;
 
 import net.minecraft.core.Registry;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -19,10 +20,12 @@ import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraft.world.level.block.StainedGlassPaneBlock;
 import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import com.cursedlands.CursedLands;
+import com.cursedlands.block.CursedLeavesBlock;
 import com.cursedlands.block.DecorBarsBlock;
 import com.cursedlands.block.DecorShapeBlock;
 import com.cursedlands.block.DecorStairBlock;
@@ -43,6 +46,25 @@ public final class ModBlocks {
 
 	public static final Block BLACK_WOOD_LOG = register(
 			"black_wood_log",
+			RotatedPillarBlock::new,
+			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2.0F)
+	);
+
+	// ---- trees of the biomes: logs. All of them are in #minecraft:logs, which the leaves use to find their trunk.
+	public static final Block PALE_BIRCH_LOG = register(
+			"pale_birch_log",
+			RotatedPillarBlock::new,
+			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2.0F)
+	);
+
+	public static final Block CHARRED_LOG = register(
+			"charred_log",
+			RotatedPillarBlock::new,
+			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1.6F)
+	);
+
+	public static final Block PINE_LOG = register(
+			"pine_log",
 			RotatedPillarBlock::new,
 			BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2.0F)
 	);
@@ -503,14 +525,26 @@ public final class ModBlocks {
 
 	public static final Block WITHERED_LEAVES = register(
 			"withered_leaves",
-			Block::new,
-			BlockBehaviour.Properties.of()
-				.sound(SoundType.GRASS)
-				.strength(0.2F)
-				.noOcclusion()
-				.isValidSpawn((state, level, pos, type) -> false)
-				.isSuffocating((state, level, pos) -> false)
-				.isViewBlocking((state, level, pos) -> false)
+			settings -> new CursedLeavesBlock(0.0F, ParticleTypes.ASH, settings),
+			leaves()
+	);
+
+	public static final Block DARK_NEEDLES = register(
+			"dark_needles",
+			settings -> new CursedLeavesBlock(0.0F, ParticleTypes.ASH, settings),
+			leaves()
+	);
+
+	public static final Block CRIMSON_LEAVES = register(
+			"crimson_leaves",
+			settings -> new CursedLeavesBlock(0.0F, ParticleTypes.ASH, settings),
+			leaves()
+	);
+
+	public static final Block ASHEN_LEAVES = register(
+			"ashen_leaves",
+			settings -> new CursedLeavesBlock(0.004F, ParticleTypes.ASH, settings),
+			leaves()
 	);
 
 	public static final Block BLOOD_MOSS_CARPET = register(
@@ -589,6 +623,21 @@ public final class ModBlocks {
 	// Each helper returns a new Properties object: setId() mutates it, so it must not be shared between blocks.
 	private static BlockBehaviour.Properties stone() {
 		return BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).strength(2.0F, 6.0F).requiresCorrectToolForDrops();
+	}
+
+	/** Leaves that decay like the vanilla ones when no log is within reach. */
+	private static BlockBehaviour.Properties leaves() {
+		return BlockBehaviour.Properties.of()
+				.sound(SoundType.GRASS)
+				.strength(0.2F)
+				.randomTicks()
+				.noOcclusion()
+				.isValidSpawn((state, level, pos, type) -> false)
+				.isSuffocating((state, level, pos) -> false)
+				.isViewBlocking((state, level, pos) -> false)
+				.isRedstoneConductor((state, level, pos) -> false)
+				.ignitedByLava()
+				.pushReaction(PushReaction.DESTROY);
 	}
 
 	private static BlockBehaviour.Properties planks() {

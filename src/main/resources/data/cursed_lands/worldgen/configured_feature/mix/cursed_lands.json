@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "cursed_lands:tree/black_oak",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.16,
+        "feature": {
+          "feature": "cursed_lands:tree/snag",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.16667,
+        "feature": {
+          "feature": "cursed_lands:tree/black_spruce",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.11429,
+        "feature": {
+          "feature": "cursed_lands:tree/bone_birch",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.09677,
+        "feature": {
+          "feature": "cursed_lands:tree/cypress",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.08929,
+        "feature": {
+          "feature": "cursed_lands:tree/stump",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.09804,
+        "feature": {
+          "feature": "cursed_lands:tree/thornbrush",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.08696,
+        "feature": {
+          "feature": "cursed_lands:tree/dead_birch",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

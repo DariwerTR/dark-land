@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "cursed_lands:tree/wind_pine",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.18,
+        "feature": {
+          "feature": "cursed_lands:tree/dead_spruce",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.19512,
+        "feature": {
+          "feature": "cursed_lands:tree/snag",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.18182,
+        "feature": {
+          "feature": "cursed_lands:tree/black_spruce",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.09259,
+        "feature": {
+          "feature": "cursed_lands:tree/stump",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.10204,
+        "feature": {
+          "feature": "cursed_lands:tree/thornbrush",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

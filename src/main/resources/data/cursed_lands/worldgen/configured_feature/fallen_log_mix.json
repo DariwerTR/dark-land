@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "cursed_lands:fallen_black_log",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "cursed_lands:fallen_pale_birch_log",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": "cursed_lands:fallen_pine_log",
+          "placement": []
+        }
+      }
+    ]
+  }
+}
